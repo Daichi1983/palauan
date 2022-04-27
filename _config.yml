@@ -2,3 +2,8 @@ theme: jekyll-theme-slate
 
 plugins:
  - jekyll-sitemap
+
+sitemap:
+    path: sitemap.xml
+    template: ./sitemap_template.xml
+    rel: false
